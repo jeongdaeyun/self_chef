@@ -33,13 +33,14 @@ body {
   top: -105px;
   right: 50px;
 }
+
 .font_logout > a {
     margin-right: 10px;
 }
 
 .search-box {
   position: absolute;
-  top: 20%;
+  top: 13%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #C5DEDA;
@@ -90,6 +91,8 @@ ul, li {
 }
 .menu {
   display: flex;
+  position: relative;
+  top: -30px;
 }
 .menu-item {
   background-color: green;
@@ -110,6 +113,7 @@ ul, li {
   text-decoration: none;
   text-align: center;
 }
+
 .menu-link:hover {
   color: white;
 }
@@ -119,7 +123,7 @@ ul, li {
   height: 50px;
   position: relative;
   top: -60px;
-  left: 650px;
+  left: 1000px;
 }
 
 .container {
@@ -129,6 +133,7 @@ ul, li {
     margin-left: auto;
     margin-top:100px; 
 }
+
 .home1 {
     width: 1240px;
     background: #fff;
@@ -145,6 +150,7 @@ ul, li {
     padding-top: 35px;
     vertical-align: top;
 }
+
 .s_list_ul_arrow {
     display: inline-block;
     
@@ -165,3 +171,23 @@ ul, li {
     padding-inline-start: 40px;
 }
 
+.image_center{
+  text-align: center;
+}
+
+.image_left{
+  position: absolute;
+  left:200px;
+}
+
+.image_right{
+  position: absolute;
+  right:200px;
+}
+footer {
+  height: 60px;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+}

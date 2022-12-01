@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.font_title {
+  color: black;
+  font-size: 1.5rem;
+  font-family: Arial, serif;
+  font-weight: bold;
+  text-align: center;
+}
+body {
+  background: #ffffff; /* fallback for old browsers */
+  background: rgb(255, 255, 255);
+  background: white;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.search-box {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #C5DEDA;
+  height: 40px;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+
+.search-btn {
+  color: black;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #9CB4D4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-txt {
+  float: left;
+  padding: 0;
+  background: none;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 15px;
+  line-height: 40px;
+}
+
+
+ul,li {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 45px;
+}
+ul, li {
+  list-style:none;
+}
+.menu {
+  display: flex;
+  position: relative;
+  top: -15px;
+}
+.menu-item {
+  background-color: green;
+  flex-grow: 1;
+  transition: 0.5s;
+}
+.menu-item:hover {
+  background-color: black;
+  flex-grow: 1.2;
+}
+.menu-link {
+  /* block이면 마우스 클릭영역이 더 커짐, a태그는 inline으로서 클릭영역이 콘텐츠에 한정됨*/
+  display: block; 
+  padding: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu-link:hover {
+  color: white;
+}
+
+.img > img{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -60px;
+  left: 650px;
+}
