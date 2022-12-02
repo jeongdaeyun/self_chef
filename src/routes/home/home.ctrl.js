@@ -5,7 +5,7 @@ const output = {
     home: (req, res) => {
         res.render("home/index");
     },
-    
+
     login: (req, res) => {
         res.render("home/login");
     },  
@@ -18,6 +18,10 @@ const output = {
     },
     Mypage: (req, res) => {
         res.render("home/Mypage");
+    },
+
+    comein: (req, res) => {
+        res.render("home/comein");
     },
 };
 

@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="/css/home/community.css">
     <title>COMMUNITY</title>
 </head>
@@ -16,10 +18,14 @@
       <img src="css/home/image/logo.PNG ">
   </div>
   <div class="font_logout">
-      <a href="login">sign in</a>
-      <a href="select">sign up</a>
-      <a href="login">log out</a>
+      <a href="login">Log-Out</a>
   </div>
+  <div class="search-box">
+        <input type="text" class="search-txt" name="" placeholder="레시피, 재료 검색"/>
+        <a class="search-btn" href="#">
+            <i class="fas fa-search"></i>
+            </a>
+    </div>
   <ul class="menu">
         <li class="menu-item">
             <a href="/" class="menu-link">Home</a>
@@ -31,7 +37,7 @@
             <a href="#" class="menu-link">Meal planner</a>
         </li>
         <li class="menu-item">
-            <a href="#" class="menu-link">My page</a>
+            <a href="mypage" class="menu-link">My page</a>
         </li>
         <li class="menu-item">
             <a href="setting" class="menu-link">Setting</a>
@@ -41,7 +47,16 @@
   <div class="font_community">
     <p>게시판</p>
   </div>
-
+  <table border="1" width ="1000" height="100" align = "center" >
+    <tr align ="center">
+	    <p><td colspan = "5" span style="color:black">글 목록</td></p>
+        </tr>
+	        <th class="jb-th-1">번호</th>
+	        <th class="jb-th-2">제목</th>
+	        <th class="jb-th-3">글쓴이</th>
+	        <th class="jb-th-4">날짜</th>
+	        <th class="jb-th-5">추천</th>
+  </table>
   <div class="image_center">
       <img src="css/home/image/community.PNG">
   </div>
@@ -60,6 +75,4 @@
     </div>
     <input type="button" class="navyBtn" value="글 쓰기" onClick="location.href='#'">
   </body>
-
-    
 <html>

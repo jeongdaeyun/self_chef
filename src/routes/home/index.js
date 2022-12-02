@@ -10,7 +10,7 @@ router.get("/login", ctrl.output.login);
 router.get("/select", ctrl.output.select);
 router.get("/community", ctrl.output.community);
 router.get("/Mypage", ctrl.output.Mypage);
-
+router.get("/comein", ctrl.output.comein);
 
 //외부로 내보내기
 module.exports = router;

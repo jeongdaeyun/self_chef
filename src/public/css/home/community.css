@@ -20,9 +20,8 @@ body {
   height: 50px;
   position: relative;
   top: -60px;
-  left: 1000px;
+  left: 810px;
 }
-
 
 .font_community{
   font-size: 1.3rem;
@@ -38,7 +37,7 @@ body {
   font-family: Arial, serif;
   font-weight: bold;
   position: relative;
-  left: 892px;
+  text-align: center;
 }
 
 .font_logout{
@@ -54,6 +53,42 @@ body {
 
 .font_logout > a {
     margin-right: 10px;
+}
+
+
+.search-box {
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #C5DEDA;
+  height: 40px;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.search-btn {
+  color: black;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #9CB4D4;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-txt {
+  float: left;
+  padding: 0;
+  background: none;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 15px;
+  line-height: 40px;
 }
 
 footer {
@@ -86,11 +121,12 @@ footer {
     width: 50px;
     height: 40px;
     background: green;
+    cursor: pointer;
 }
 
 .right{
   position: absolute;
-  right: 550px;
+  right: 240px;
 }
 
 .navyBtn{
@@ -99,8 +135,25 @@ footer {
   height: 20px;
   background: white;
   position: absolute;
-  top: 880px;
-  right: 569px;
+  top: 800px;
+  right: 400px;
+  cursor: pointer;
+}
+
+.jb-th-1 {
+    width: 80px;
+  }
+.jb-th-2 {
+  width: 300px;
+}
+.jb-th-3 {
+  width: 150px;
+}
+.jb-th-4 {
+  width: 100px;
+}
+.jb-th-5 {
+  width: 80px;
 }
 
 ul,li {
@@ -147,11 +200,4 @@ ul, li {
 
 .menu-link:hover {
   color: white;
-}
-footer {
-  height: 60px;
-  position: fixed;
-  left: 0;
-  width: 100%;
-  bottom: 0;
 }
