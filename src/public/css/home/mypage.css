@@ -382,6 +382,13 @@ header {
 .sales  .btn-group {
     float: right;
 }
+.sales  .logo-group {
+    float: left;
+}
+.sales  .number-group {
+    float: left;
+    margin-left: 60px;
+}
 .sales h2 {
     color: #8492af;
     float: left;
@@ -405,6 +412,22 @@ header {
 }
 .sales .btn-group.open .dropdown-toggle, .btn.active, .btn:active{
     box-shadow: none;
+}
+.sales .dropdown-logo > a {
+    color: #0e1a35;
+    display: inline-block;
+    font-weight: 800;
+    padding: 9px 0;
+    text-align: center;
+    width: 100%;
+}
+.sales .dropdown-number > a {
+    color: #0e1a35;
+    display: inline-block;
+    font-weight: 800;
+    padding: 9px 0;
+    text-align: center;
+    width: 100%;
 }
 .sales .dropdown-menu > a {
     color: #0e1a35;
