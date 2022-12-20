@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+/* 1. tab 영역 css 설정 */
+.tab-area {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+/* 2. tab 메뉴 부분 디자인 */
+.tab-area input {
+    display: none;
+
+}
+
+.tab-area label {
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    text-align: center;
+    border: 3px solid;
+    padding: 10px;
+    border-color: white;
+
+}
+
+/* label에 마우스 올렸을 때 */
+.tab-area label:hover {
+    cursor: pointer;
+    /*마우스 모양 변경*/
+}
+
+/* tab-area 안에 존재하는 input 태그가 체크되었을 때, 
+  체크된 input 태그 다음에 등장하는 label의 css 값 */
+.tab-area input:checked+label {
+    /* 해당 메뉴가 선택된 상태인지 아닌지를 사용자에게 알려줄 수 있음 */
+    font-weight: 600;
+    border-color: white white green white;
+}
+
+
+/* 3. tab 내용 부분 디자인 */
+.tab-content {
+    width: 100%;
+    /*부모 div width와 같은 width를 가진다.*/
+    height: auto;
+    display: none;
+    /*기본 값일땐 화면에 표시하지 않음. 체크 상태일 때, 화면에 표시되어야 함 */
+    border-top: 2px solid rgba(200, 200, 200, 0.534);
+    /*탭 메뉴와 내용구분선*/
+}
+
+
+/* input 태그가 체크 상태일떼, 이에 대응하는 content?를 display에 표시하도록 설정 */
+#tab1:checked~#content1,
+#tab2:checked~#content2,
+#tab3:checked~#content3,
+#tab4:checked~#content4 {
+    display: flex;
+}
+
+.textb {
+    position: relative;
+    top: 40px;
+    font-size: 30px;
+}
+
+.meal-img {
+    position: relative;
+    left: 40px;
+    margin-right: 66px;
+    width: 80px;
+    height: 110px;
+}
+
+.meal-img2 {
+    position: relative;
+    left: 40px;
+    margin-right: 74px;
+    width: 90px;
+    height: 110px;
+}
+
+.meal-img:hover {
+    cursor: pointer;
+    border: 5px solid;
+    padding: 10px;
+    border-radius: 30%;
+    border-color: rgb(180, 227, 171);
+}
+
+.meal-img2:hover {
+    cursor: pointer;
+    border: 5px solid;
+    padding: 10px;
+    border-radius: 30%;
+    border-color: rgb(180, 227, 171);
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/home/write.css">
+    <title>WRITE</title>
+</head>
+
+<div>
+    <div class="font_title">
+        <p>Self Chef</p>
+    </div>
+    <div class="img">
+        <img src="css/home/image/logo.PNG ">
+    </div>
+    <div class="font_logout">
+        <a href="login">log out</a>
+    </div>
+    <div class="search-box">
+        <input type="text" class="search-txt" name="" placeholder="레시피, 재료 검색" />
+        <a class="search-btn" href="#">
+            <i class="fas fa-search"></i>
+        </a>
+    </div>
+    <ul class="menu">
+        <li class="menu-item">
+            <a href="/" class="menu-link">Home</a>
+        </li>
+        <li class="menu-item">
+            <a href="community" class="menu-link">Community</a>
+        </li>
+        <li class="menu-item">
+            <a href="#" class="menu-link">Meal planner</a>
+        </li>
+        <li class="menu-item">
+            <a href="mypage" class="menu-link">My page</a>
+        </li>
+    </ul>
+</div>
+
+<body>
+
+    <div class="write-box" rows="5" cols="80">내 레시피 작성하기</div>
+
+    <div class="write-form"></div>
+    <div class="title-text_box">
+        <textarea name="main_text" placeholder="제목" rows="2" cols="80"></textarea>
+
+        <div class="text-box">
+            <textarea name="main_text" placeholder="내용 작성" rows="20" cols="80"></textarea>
+            <form action="#" method="post">
+                <input type="file">
+                <div class="form-write">
+                    <input type="button" onclick="location.href= 'community'" value="취소">
+                    <input type="button" onclick="location.href= 'community'" value="등록">
+                </div>
+            </form>
+        </div>
+
+</body>
+
+</html>
