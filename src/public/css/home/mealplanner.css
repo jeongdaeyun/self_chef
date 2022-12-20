@@ -123,6 +123,46 @@ footer {
     cursor: pointer;
 }
 
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+  position: relative;
+  top: 153px;
+  left: 1000px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+
+.myButton2 {
+	background-color:rgb(54, 142, 177);
+	border-radius:28px;
+	border:1px solid rgb(104, 123, 223);
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+  position: relative;
+  top: 153px;
+  left: 1000px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #15179a;
+}
+.myButton2:hover {
+	background-color:#292671;
+}
+
 .right{
   position: relative;
   bottom: 100px;
@@ -242,48 +282,12 @@ section.notice {
   border-bottom: 1px solid #ccc;
 }
 
-.board-table a {
-  color: #333;
-  display: inline-block;
-  line-height: 1.4;
-  word-break: break-all;
-  vertical-align: middle;
-}
 .board-table a:hover {
   text-decoration: underline;
 }
-.board-table th {
-  text-align: center;
-}
 
-.board-table .th-num {
-  width: 100px;
-  text-align: center;
-}
-
-.board-table .th-writer {
-  width: 200px;
-}
-
-
-.board-table .th-date {
-  width: 200px;
-}
-
-.board-table .th-view {
-  width: 100px;
-}
-
-.board-table .th-like {
-  width: 100px;
-}
 .board-table th, .board-table td {
   padding: 14px 0;
-}
-
-.board-table tbody td {
-  border-top: 1px solid #e7e7e7;
-  text-align: center;
 }
 
 .board-table tbody th {

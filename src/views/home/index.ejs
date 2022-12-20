@@ -7,26 +7,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/css/home/root.css">
-    <title>MAIN</title>
+    <link rel="stylesheet" href="/css/home/root.css" >
+    <link rel="stylesheet" href="/css/home/rootTap.css">
+    <title>HOME</title>
 </head>
 <body>
     <div class="font_title">
         <p>Self Chef</p>
+
     </div>
     <div class="img">
-        <img src="css/home/image/logo.PNG" style="left: 810px;">
+        <image src="css/home/image/logo.PNG ">
     </div>
     <div class="font_logout">
         <a href="login">sign in</a>
-        <a href="select">sign up</a>
-
+        <a href="login">log out</a>
     </div>
     <div class="search-box">
         <input type="text" class="search-txt" name="" placeholder="레시피, 재료 검색"/>
-        <a class="search-btn" href="#">
-        <i class="fas fa-search"></i>
-        </a>
+            <a class="search-btn" href="#">
+            <i class="fas fa-search"></i>
+            </a>
     </div>
     <ul class="menu">
         <li class="menu-item">
@@ -36,46 +37,108 @@
             <a href="community" class="menu-link">Community</a>
         </li>
         <li class="menu-item">
-            <a href="#" class="menu-link">Meal planner</a>
+            <a href="mealplanner" class="menu-link">Meal planner</a>
         </li>
         <li class="menu-item">
-            <a href="Mypage" class="menu-link">My page</a>
-        </li>
-        <li class="menu-item">
-            <a href="#" class="menu-link">Setting</a>
+            <a href="mypage" class="menu-link">My page</a>
         </li>
     </ul>
-    <dd class="container">
-        <div class="home1">
-            <div class="s_list_ul_arrow st2">
-                <button type="button" class="slick-arrow" style="display:inline-block">
-                    <img src="https://recipe1.ezmember.co.kr/img/store/icon_arrow3_pre.png?v.1">
-                </button>
-            </div>
+    <div class="page-title">
+        <div class="container">
+            <h3>레시피 분류</h3>
+        </div>
+        </div>
+    <div class="tab-area">
+        <input type="radio" name="tabs" id="tab1" checked>
+        <label for="tab1">상황별</label>
+        <input type="radio" name="tabs" id="tab2">
+        <label for="tab2">종류별</label>
+    
+        <div id="content1" class="tab-content situation">
+            <a href="speedpage" name="초스피드"><img class="meal-img2" src="css/home/image/상황별/초스피드.PNG " /></a>
+            <a href="b2" name="술안주"><img class="meal-img2" src="css/home/image/상황별/술안주.PNG " /></a>
+            <a href="b3" name="다이어트"><img class="meal-img2" src="css/home/image/상황별/다이어트.PNG " /></a>
+            <a href="b4" name="간식"><img class="meal-img2" src="css/home/image/상황별/간식.PNG " /></a>
+            <a href="b5" name="야식"><img class="meal-img2" src="css/home/image/상황별/야식.PNG " /></a>
+            <a href="b6" name="손님접대"><img class="meal-img2" src="css/home/image/상황별/손님접대.PNG " /></a>
+            <a href="b8" name="도시락"><img class="meal-img2" src="css/home/image/상황별/도시락.PNG " /></a>
+            <a href="b9" name="영양식"><img class="meal-img2" src="css/home/image/상황별/영양식.PNG " /></a>
+            <a href="b11" name="해장"><img class="meal-img2" src="css/home/image/상황별/해장.PNG " /></a>
+        </div>
+        <div id="content2" class="tab-content type">
+            <a href="a2" name="메인반찬"><img class="meal-img" src="css/home/image/종류별/메인반찬.PNG " /></a>
+            <a href="K_stew" name="찌개"><img class="meal-img" src="css/home/image/종류별/찌개.PNG " /></a>
+            <a href="a4" name="면_만두"><img class="meal-img" src="css/home/image/종류별/면_만두.PNG " /></a>
+            <a href="a5" name="디저트"><img class="meal-img" src="css/home/image/종류별/디저트.PNG " /></a>
+            <a href="a6" name="양식"><img class="meal-img" src="css/home/image/종류별/양식.PNG " /></a>
+            <a href="a7" name="밑반찬"><img class="meal-img" src="css/home/image/종류별/밑반찬.PNG " /></a>
+            <a href="a8" name="국_탕"><img class="meal-img" src="css/home/image/종류별/국_탕.PNG " /></a>
+            <a href="a9" name="밥_죽_떡"><img class="meal-img" src="css/home/image/종류별/밥_죽_떡.PNG " /></a>
+            <a href="a10" name="빵"><img class="meal-img" src="css/home/image/종류별/빵.PNG " /></a>
+            <a href="a11" name="샐러드"><img class="meal-img" src="css/home/image/종류별/샐러드.PNG " /></a>
+        </div>
+        </div>
+    <section class="notice">
+        <div class="page-title">
+        <div class="container">
+            <h3>이달의 레시피</h3>
+        </div>
+        </div>
+        <!-- board list area -->
+        <div id="board-list">
+            <div class="container">
+                <table class="board-table">
+                    <thead>
+                    <tr>
+                        
+                        <th scope="col" class="th-like">추천수</th>
+                        <th scope="col" class="th-title">제목</th>
+                        <th scope="col" class="th-writer">작성자</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>24</td>
+                        <th><a href="kimchijjigae">
+                            <image src="css/home/image/김치찌개.jpg"></image>돼지고기 김치찌개를 잘 끓이는 방법</a></th>
+                        <td>정대윤</td>
+                    </tr>
 
-            <ul class="exhibition_box" style="width:1122px;overflow:hidden;display:inline-block;text-align:left;">
-                <img src="css/home/image/capture.png" style="width: 1122px;margin-top:-20px">
-            </ul>
+                    <tr>
+                        <td>15</td>
+                        <th><a href="#!">
+                            <image src="css/home/image/식빵피자.jpg"></image>식빵을 이용한 간단한 피자 만들기</a></th>
+                        <td>정만성</td>                        
+                    </tr>
 
-            <div class="s_list_ul_arrow st2">
-                <button type="button" class="slick-arrow" style="display:inline-block">
-                    <img src="https://recipe1.ezmember.co.kr/img/store/icon_arrow3_next.png?v.1">
-                </button>
+                    <tr>
+                        <td>13</td>
+                        <th><a href="#!">
+                            <image src="css/home/image/소불고기.jpg"></image>소불고기 황금 양념 레시피</a></th>
+                        <td>유원태</td>                        
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <th><a href="#!">
+                            <image src="css/home/image/간장게장.jpg"></image>간장게장 맛있게 하는 법</a></th>
+                        <td>정대윤</td>                        
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        
+                        <th><a href="#!">
+                            <image src="css/home/image/굴무침.jpg"></image>
+                        겨울철 별미 굴무침</a></th>
+                        <td>안준호</td>
+                    </tr>
+                                                            
+                    </tbody>
+                </table>
             </div>
         </div>
-    </dd>
-    <div class="image_center">
-        <p>실시간 게시글 Top 5</p>
-        <img src = "css/home/image/recent_list.png" style="width: 1122px">
-    </div>
-    <div class="image_left">
-        <p>실시간 검색어 랭킹 Top5</p>
-        <img src = "css/home/image/ranking_left.PNG">
-    </div>
-    <div class="image_right">
-        <p>주간 레시피 랭킹 TOP5</p>
-        <img src="css/home/image/ranking_right.PNG">
-    </div>
+    </section>
+    
 </body>
 
+<footer></footer>
 </html>

@@ -12,7 +12,7 @@ body {
     overflow:auto;  
   }
 
-  .selelct-page {
+  .fix_comment-page {
     width: auto;
     padding: 8% 0 0;
     margin: auto;
@@ -31,20 +31,14 @@ body {
     box-shadow: 2px 5px 5px 0px #eee;
     max-width: 500px;
     padding-top: 10px;
-    height: 550px;
+    height: 350px;
     margin-top: 166px;
     background-color: white;
     border: 3px solid black;
 }
-/*--- for label of first and last name---*/
-.id{
-    margin-left: 1px;
-    font-family: sans-serif;
-    font-size: 14px;
-    color: black;
-    margin-top: 10px;
-}
-.name{
+/*--- for label of introduction---*/
+
+.introduction{
     margin-left: 1px;
     font-family: sans-serif;
     font-size: 14px;
@@ -62,35 +56,10 @@ body {
     padding-top:10px;
 }
 
-.password{
-    margin-left: 9px;
-    font-family: sans-serif;
-    color: black;
-    font-size: 14px;
-    margin-top: 13px;
-}
-.pass{
-    color: black;
-    margin-top: 9px;
-    font-size: 14px;
-    font-family: sans-serif;
-    margin-left: 6px;
-    margin-top: 9px;
-}
-
-/*------------for phone Number--------*/
-     /*----------label--------*/
-.pno{
-    font-size: 18px;
-    margin-left: -13px;
-    margin-top: 10px;
-    color: #ff9;
-   
-}	
 
 /*--------------for Gender---------------*/
     /*--------------label---------*/
-.gender {
+.public_or_not {
     color: black;
     font-family: sans-serif;
     font-size: 14px;
@@ -99,13 +68,26 @@ body {
 }
 
     /*---------- for Input type--------*/
-.col-xs-4.gender{
+.col-xs-4.public_or_not{
     color: black;
     font-size: 13px;
     margin-top: 9px;
     padding-bottom: 16px;
 }
 
+.change {
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-left: 9px;
+    margin-top: 8px;
+}
+.col-xs-4.change{
+    color: black;
+    font-size: 13px;
+    margin-top: 9px;
+    padding-bottom: 16px;
+}
 .sbutton{
     color: rgb(111, 233, 153);
     font-size: 20px;
@@ -119,9 +101,8 @@ body {
   }
 
 .btn.btn-warning:hover {
-   box-shadow: 2px 1px 2px 3px #99ccff;
-   background:white;
-   color:rgb(89, 220, 170);
-   transition: background-color 1.15s ease-in-out,border-color 1.15s ease-in-out,box-shadow 1.15s ease-in-out;
-   
+    box-shadow: 2px 1px 2px 3px #99ccff;
+    background:white;
+    color:rgb(89, 220, 170);
+    transition: background-color 1.15s ease-in-out,border-color 1.15s ease-in-out,box-shadow 1.15s ease-in-out;
 }	 

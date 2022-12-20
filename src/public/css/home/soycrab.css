@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
-.root-page {
+.community-page {
   width: 360px;
   padding: 8% 0 0;
   margin: auto;
@@ -15,27 +15,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.font_title {
-  color: black;
-  font-size: 1.5rem;
-  font-family: Arial, serif;
-  font-weight: bold;
-  text-align: center;
-}
-
-.font_logout{
-  color: black;
-  font-size: 1.2rem;
-  font-family: Arial, serif;
-  font-weight: bold;
-  text-align: right;
+.img > img{
+  width: 50px;
+  height: 50px;
   position: relative;
-  top: -105px;
-  right: 50px;
-}
-
-.font_logout > a {
-    margin-right: 10px;
+  top: -60px;
+  left: 810px;
 }
 
 .search-box {
@@ -73,6 +58,38 @@ body {
   line-height: 40px;
 }
 
+.font_community{
+  font-size: 1.3rem;
+  font-weight: bold;
+  color:black;
+  text-align: left;
+  top: 120px;
+}
+
+.font_title {
+  color: black;
+  font-size: 1.5rem;
+  font-family: Arial, serif;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+}
+
+.font_logout{
+  color: black;
+  font-size: 1.2rem;
+  font-family: Arial, serif;
+  font-weight: bold;
+  text-align: right;
+  position: relative;
+  top: -105px;
+  right: 50px;
+}
+
+.font_logout > a {
+    margin-right: 10px;
+}
+
 footer {
   height: 60px;
   position: fixed;
@@ -80,6 +97,95 @@ footer {
   width: 100%;
   bottom: 0;
 }
+
+.image_center{
+  text-align: center;
+}
+
+.main {
+    margin: 20px;
+    text-align: center;
+}
+.searchBtn {
+    color: white;
+}
+
+.input_text {
+    border: 2.5px solid green;
+    width: 200px;
+    height: 40px;
+}
+.Button {
+    border: 0.2px solid black;
+    width: 50px;
+    height: 40px;
+    background: green;
+    cursor: pointer;
+}
+
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+  position: relative;
+  top: 153px;
+  left: 1000px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+
+.myButton2 {
+	background-color:rgb(54, 142, 177);
+	border-radius:28px;
+	border:1px solid rgb(104, 123, 223);
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+  position: relative;
+  top: 153px;
+  left: 1000px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #15179a;
+}
+.myButton2:hover {
+	background-color:#292671;
+}
+
+.right{
+  position: relative;
+  bottom: 100px;
+  left: -600px;
+}
+
+.textb {
+    position: relative;
+    top: 40px;
+    font-size: 30px;
+}
+
+.navyBtn{
+  border: 0.2px solid black;
+  width: 70px;
+  height: 20px;
+  background: white;
+  position: relative;
+  bottom: 150px;
+  left: 1400px;
+  cursor: pointer;
+}
+
 
 ul,li {
   margin: 0;
@@ -92,25 +198,27 @@ ul, li {
   list-style:none;
 }
 
+.a{
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .menu {
   display: flex;
   position: relative;
   top: -30px;
 }
-
 .menu-item {
   background-color: green;
   flex-grow: 1;
   transition: 0.5s;
-  
   border: 1px solid rgb(199, 230, 193);
 }
-
 .menu-item:hover {
   background-color: black;
   flex-grow: 1.2;
 }
-
 .menu-link {
   /* block이면 마우스 클릭영역이 더 커짐, a태그는 inline으로서 클릭영역이 콘텐츠에 한정됨*/
   display: block; 
@@ -124,74 +232,6 @@ ul, li {
 
 .menu-link:hover {
   color: white;
-}
-
-.img > img{
-  width: 50px;
-  height: 50px;
-  position: relative;
-  top: -60px;
-  left: 810px;
-}
-
-.container {
-    width: 1300px;
-    max-width: none !important;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top:100px;
-}
-
-.home1 {
-    width: 1240px;
-    background: #fff;
-    border: 1px solid #e9e9e9;
-    padding: 28px 0;
-    margin-bottom: 8px;
-    position: relative;
-    text-align: center;
-}
-
-.s_list_ul_arrow.st2 {
-    width: 40px;
-    text-align: center;
-    padding-top: 35px;
-    vertical-align: top;
-}
-
-.s_list_ul_arrow {
-    display: inline-block;
-}
-
-.exhibition_box {
-    padding: 0;
-    margin: 0;
-}
-
-.ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-
-.image_center{
-  text-align: center;
-}
-
-.image_left{
-  position: absolute;
-  top:1180px;
-  left:260px;
-}
-
-.image_right{
-  position: absolute;
-  top:1180px;
-  right:260px;
 }
 
 table {
@@ -266,10 +306,17 @@ section.notice {
 }
 
 
-.board-table .th-like {
+.board-table .th-date {
+  width: 200px;
+}
+
+.board-table .th-view {
   width: 100px;
 }
 
+.board-table .th-like {
+  width: 100px;
+}
 .board-table th, .board-table td {
   padding: 14px 0;
 }
@@ -297,4 +344,80 @@ section.notice {
   color: #333333;
   font-weight: 400;
   text-align: center;
+}
+
+.page{
+  text-align: center; /* div 사이즈 영역 안에서의 center */
+  width: 50%;
+}
+
+.pagination{
+  position: relative;
+  left: 50%;
+  top: -100px;
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  margin-top: 0px;
+}
+
+.pagination li{
+  display: inline;
+  text-align: center;
+}
+
+/** 숫자들에 대한 스타일 지정 **/
+.pagination a{
+  float: left;
+  display: block;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  line-height: 1.5;
+}
+
+.first{
+  margin-right: 15px;
+}
+
+.last{
+  margin-left: 15px;
+}
+
+.first:hover, .last:hover, .left:hover, .right:hover{
+  color: green;
+}
+
+.pagination a.active{
+  cursor: default;
+  color: black;
+}
+
+.pagination a:active{
+  outline: none;
+}
+
+.model .num{
+  margin-left: 3px;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.model .num:hover{
+  background-color: green;
+  color: green;
+}
+
+.modal .num.active, .modal .num:active{
+  background-color: #ddffbc;
+  cursor: pointer;
+}
+
+.arrow_left{
+  padding: 0;
+  height: 30px;
+  line-height: 30px;
 }

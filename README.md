@@ -1,3 +1,3 @@
-#self-cheif front 개발 진행
+#self-chef front 개발 진행
 
 fighting
