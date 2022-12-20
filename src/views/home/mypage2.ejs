@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/home/mypage.css">
+
+    <title>MyPage</title>
+
+</head>
+
+<body>
+    <div>
+        <div class="font_title">
+            <p>Self Chef</p>
+        </div>
+        <div class="img">
+            <img src="css/home/image/logo.PNG ">
+        </div>
+        <div class="font_logout">
+            <a href="login">log out</a>
+        </div>
+        <div class="search-box">
+            <input type="text" class="search-txt" name="" placeholder="레시피, 재료 검색" />
+            <a class="search-btn" href="#">
+                <i class="fas fa-search"></i>
+            </a>
+        </div>
+        <ul class="menu">
+            <li class="menu-item">
+                <a href="/" class="menu-link">Home</a>
+            </li>
+            <li class="menu-item">
+                <a href="community" class="menu-link">Community</a>
+            </li>
+            <li class="menu-item">
+                <a href="mealplanner2" class="menu-link">Meal planner</a>
+            </li>
+            <li class="menu-item">
+                <a href="mypage" class="menu-link">My page</a>
+            </li>
+        </ul>
+    </div>
+
+    <body class="home">
+        <div class="container-fluid display-table">
+            <div class="row display-table-row">
+
+                <div class="col-md-2 col-sm-1 hidden-xs display-table-cell v-align box" id="navigation">
+                    <div class="navi">
+                        <ul>
+                            <li class="active">
+                                <a href="mypage">
+                                    <i class="fa fa-home" aria-hidden="true"></i>
+                                    <span class="hidden-xs hidden-sm">나만의 레시피북</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="setting2">
+                                    <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                    <span class="hidden-xs hidden-sm">내 정보 변경</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mypage_setting">
+                                    <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                    <span class="hidden-xs hidden-sm">나만의 레시피북 설정</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-10 col-sm-11 display-table-cell v-align">
+                    <div class="row">
+
+                        <div class="col-md-5">
+                            <div class="header-rightside">
+                                <ul class="list-inline header-top pull-right">
+
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                            <img src="css/home/image/cun.png" alt="user"
+                                                style="width: 200px; height:200px; margin-left:300px">
+                                            <b class="caret"></b>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <div class="navbar-content">
+                                                    <span>Jeong dae yun</span>
+                                                    <p class="text-muted small">
+                                                        wjdeodbs386@naver.com
+                                                    </p>
+                                                    <p class="text-muted small">
+                                                        요리왕 비룡 2세
+                                                    </p>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="user-dashboard">
+
+                        <div class="row">
+                            <div class="col-md-5 col-sm-5 col-xs-12 gutter">
+
+                                <div class="sales">
+                                    <h2>Your Recipe Book</h2>
+                                    <div class="dropdown-menu">
+                                        <a href="soycrab">간장게장 맛있게 하는 법</a>
+                                        <a href="kimchijjigae">돼지고기 김치찌개를 잘 끓이는 방법</a>
+                                        <a href="#">냉동 용가리 맛있게 만들기</a>
+                                        <a href="#">짜파구리 맛나게 끓이는 방법</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-sm-5 col-xs-12 gutter">
+
+                            <div class="sales">
+                                <div class="logo-group">
+                                    <div class="dropdown-logo">
+                                        <a>Follow</a>
+                                        <a>Like</a>
+                                    </div>
+                                </div>
+                                <div class="number-group">
+                                    <div class="dropdown-number">
+                                        <a>122</a>
+                                        <a>1.3K</a>
+                                    </div>
+                                </div>
+                                <div class="btn-group">
+                                    <div class="dropdown-menu">
+                                        <a>나를 follow한 수</a>
+                                        <a>좋아요 수</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        </div>
+    </body>

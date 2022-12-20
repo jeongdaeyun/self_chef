@@ -1,0 +1,300 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.root-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+body {
+  background: #ffffff; /* fallback for old browsers */
+  background: rgb(255, 255, 255);
+  background: white;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font_title {
+  color: black;
+  font-size: 1.5rem;
+  font-family: Arial, serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.font_logout{
+  color: black;
+  font-size: 1.2rem;
+  font-family: Arial, serif;
+  font-weight: bold;
+  text-align: right;
+  position: relative;
+  top: -105px;
+  right: 50px;
+}
+
+.font_logout > a {
+    margin-right: 10px;
+}
+
+.search-box {
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #C5DEDA;
+  height: 40px;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.search-btn {
+  color: black;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #9CB4D4;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-txt {
+  float: left;
+  padding: 0;
+  background: none;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 15px;
+  line-height: 40px;
+}
+
+footer {
+  height: 60px;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+}
+
+ul,li {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 45px;
+}
+
+ul, li {
+  list-style:none;
+}
+
+.menu {
+  display: flex;
+  position: relative;
+  top: -30px;
+}
+
+.menu-item {
+  background-color: green;
+  flex-grow: 1;
+  transition: 0.5s;
+  
+  border: 1px solid rgb(199, 230, 193);
+}
+
+.menu-item:hover {
+  background-color: black;
+  flex-grow: 1.2;
+}
+
+.menu-link {
+  /* block이면 마우스 클릭영역이 더 커짐, a태그는 inline으로서 클릭영역이 콘텐츠에 한정됨*/
+  display: block; 
+  padding: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu-link:hover {
+  color: white;
+}
+
+.img > img{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -60px;
+  left: 810px;
+}
+
+.container {
+    width: 1300px;
+    max-width: none !important;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:100px;
+}
+
+.home1 {
+    width: 1240px;
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    padding: 28px 0;
+    margin-bottom: 8px;
+    position: relative;
+    text-align: center;
+}
+
+.s_list_ul_arrow.st2 {
+    width: 40px;
+    text-align: center;
+    padding-top: 35px;
+    vertical-align: top;
+}
+
+.s_list_ul_arrow {
+    display: inline-block;
+}
+
+.exhibition_box {
+    padding: 0;
+    margin: 0;
+}
+
+.ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.image_center{
+  text-align: center;
+}
+
+.image_left{
+  position: absolute;
+  top:1180px;
+  left:260px;
+}
+
+.image_right{
+  position: absolute;
+  top:1180px;
+  right:260px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+section.notice {
+  padding: 80px 0;
+}
+
+#board-search .search-window {
+  padding: 15px 0;
+  background-color: #f9f7f9;
+}
+#board-search .search-window .search-wrap {
+  position: relative;
+/*   padding-right: 124px; */
+  margin: 0 auto;
+  width: 80%;
+  max-width: 564px;
+}
+#board-search .search-window .search-wrap input {
+  height: 40px;
+  width: 100%;
+  font-size: 14px;
+  padding: 7px 14px;
+  border: 1px solid #ccc;
+}
+#board-search .search-window .search-wrap input:focus {
+  border-color: #333;
+  outline: 0;
+  border-width: 1px;
+}
+#board-search .search-window .search-wrap .btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 108px;
+  padding: 0;
+  font-size: 16px;
+}
+
+.board-table {
+  font-size: 13px;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.board-table a {
+  color: #333;
+  display: inline-block;
+  line-height: 1.4;
+  word-break: break-all;
+  vertical-align: middle;
+}
+.board-table a:hover {
+  text-decoration: underline;
+}
+.board-table th {
+  text-align: center;
+}
+
+.board-table .th-num {
+  width: 100px;
+  text-align: center;
+}
+
+.board-table .th-writer {
+  width: 200px;
+}
+
+
+.board-table .th-like {
+  width: 100px;
+}
+
+.board-table th, .board-table td {
+  padding: 14px 0;
+}
+
+.board-table tbody td {
+  border-top: 1px solid #e7e7e7;
+  text-align: center;
+}
+
+.board-table tbody th {
+  padding-left: 28px;
+  padding-right: 14px;
+  border-top: 1px solid #e7e7e7;
+  text-align: left;
+}
+
+.board-table tbody th p{
+  display: none;
+}
+.page-title {
+  margin-bottom: 60px;
+}
+.page-title h3 {
+  font-size: 28px;
+  color: #333333;
+  font-weight: 400;
+  text-align: center;
+}

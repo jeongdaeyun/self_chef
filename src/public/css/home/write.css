@@ -1,0 +1,283 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+    background: #ffffff;
+    /* fallback for old browsers */
+    background: rgb(255, 255, 255);
+    background: white;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-bottom: 700px;
+}
+
+.img>img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -60px;
+    left: 810px;
+}
+
+.search-box {
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #C5DEDA;
+    height: 40px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.search-btn {
+    color: black;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #9CB4D4;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-txt {
+    float: left;
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+.font_community {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    top: 120px;
+}
+
+.font_title {
+    color: black;
+    font-size: 1.5rem;
+    font-family: Arial, serif;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+}
+
+.font_logout {
+    color: black;
+    font-size: 1.2rem;
+    font-family: Arial, serif;
+    font-weight: bold;
+    text-align: right;
+    position: relative;
+    top: -105px;
+    right: 50px;
+}
+
+.font_logout>a {
+    margin-right: 10px;
+}
+
+footer {
+    height: 60px;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.image_center {
+    text-align: center;
+}
+
+.main {
+    margin: 20px;
+    text-align: center;
+}
+
+.searchBtn {
+    color: white;
+}
+
+.input_text {
+    border: 2.5px solid green;
+    width: 200px;
+    height: 40px;
+}
+
+.Button {
+    border: 0.2px solid black;
+    width: 50px;
+    height: 40px;
+    background: green;
+    cursor: pointer;
+}
+
+.right {
+    position: absolute;
+    right: 240px;
+}
+
+.navyBtn {
+    border: 0.2px solid black;
+    width: 70px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    top: 800px;
+    right: 400px;
+    cursor: pointer;
+}
+
+.jb-th-1 {
+    width: 80px;
+}
+
+.jb-th-2 {
+    width: 300px;
+}
+
+.jb-th-3 {
+    width: 150px;
+}
+
+.jb-th-4 {
+    width: 100px;
+}
+
+.jb-th-5 {
+    width: 80px;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 45px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.a {
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    position: relative;
+    top: -30px;
+}
+
+.menu-item {
+    background-color: green;
+    flex-grow: 1;
+    transition: 0.5s;
+    
+  border: 1px solid rgb(199, 230, 193);
+}
+
+.menu-item:hover {
+    background-color: black;
+    flex-grow: 1.2;
+}
+
+.menu-link {
+    /* block이면 마우스 클릭영역이 더 커짐, a태그는 inline으로서 클릭영역이 콘텐츠에 한정됨*/
+    display: block;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu-link:hover {
+    color: white;
+}
+
+
+
+.write-form {
+    background-color: rgb(199, 230, 193);
+    position: absolute;
+    left: 27.8%;
+    top: 47%;
+    width: 650px;
+    height: 410px;
+    border: 1px solid;
+    border-color: rgb(199, 230, 193);
+    border-radius: 30px;
+    padding: 10px;
+    z-index: -1;
+
+}
+
+.text-box {
+    position: absolute;
+    background-color: #9CB4D4;
+    top: 40px;
+    bottom: 300px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.title-text_box {
+    position: absolute;
+    left: 50%;
+    margin-left: -300px;
+    top: 50%;
+    font-size: 15px;
+}
+
+.write-box {
+    position: absolute;
+    top: 39%;
+    left: 460px;
+    width: 576px;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 30px;
+    font-style: italic;
+    color: #000000;
+    font-weight: 600;
+    text-align: left;
+}
+
+.write-button {
+    vertical-align: bottom;
+    float: left;
+}
+
+.form-write {
+    vertical-align: bottom;
+    float: right;
+}
+
+.form {
+    vertical-align: bottom;
+    float: left;
+}
+
+
+footer {
+    height: 60px;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+}
