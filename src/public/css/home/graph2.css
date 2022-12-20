@@ -397,26 +397,26 @@ section {
 
 .graph.stack1 span {
   background-color: violet;
-  height: 12.15%;
+  height: 25.2%;
   animation: stack 2s 1;
 
 }
 
 .graph.stack2 span {
   background-color: violet;
-  height: 4.8%;
+  height: 21.33%;
   animation: stack2 2s 1;
 }
 
 .graph.stack3 span {
   background-color: violet;
-  height: 10%;
+  height: 9.33%;
   animation: stack3 2s 1;
 }
 
 .graph.stack4 span {
   background-color: violet;
-  height: 33.75%;
+  height: 60%;
   animation: stack4 2s 1;
 }
 
