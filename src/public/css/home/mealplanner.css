@@ -1,0 +1,387 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.community-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+body {
+  background: #ffffff; /* fallback for old browsers */
+  background: rgb(255, 255, 255);
+  background: white;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.img > img{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -60px;
+  left: 810px;
+}
+
+.search-box {
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #C5DEDA;
+  height: 40px;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.search-btn {
+  color: black;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #9CB4D4;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-txt {
+  float: left;
+  padding: 0;
+  background: none;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 15px;
+  line-height: 40px;
+}
+
+.font_community{
+  font-size: 1.3rem;
+  font-weight: bold;
+  color:black;
+  text-align: left;
+  top: 120px;
+}
+
+.font_title {
+  color: black;
+  font-size: 1.5rem;
+  font-family: Arial, serif;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+}
+
+.font_logout{
+  color: black;
+  font-size: 1.2rem;
+  font-family: Arial, serif;
+  font-weight: bold;
+  text-align: right;
+  position: relative;
+  top: -105px;
+  right: 50px;
+}
+
+.font_logout > a {
+    margin-right: 10px;
+}
+
+footer {
+  height: 60px;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+}
+
+.image_center{
+  text-align: center;
+}
+
+.main {
+    margin: 20px;
+    text-align: center;
+}
+.searchBtn {
+    color: white;
+}
+
+.input_text {
+    border: 2.5px solid green;
+    width: 200px;
+    height: 40px;
+}
+.Button {
+    border: 0.2px solid black;
+    width: 50px;
+    height: 40px;
+    background: green;
+    cursor: pointer;
+}
+
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+  position: relative;
+  top: 153px;
+  left: 1000px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+
+.myButton2 {
+	background-color:rgb(54, 142, 177);
+	border-radius:28px;
+	border:1px solid rgb(104, 123, 223);
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+  position: relative;
+  top: 153px;
+  left: 1000px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #15179a;
+}
+.myButton2:hover {
+	background-color:#292671;
+}
+
+.right{
+  position: relative;
+  bottom: 100px;
+  left: -600px;
+}
+
+.textb {
+    position: relative;
+    top: 40px;
+    font-size: 30px;
+}
+
+.navyBtn{
+  border: 0.2px solid black;
+  width: 70px;
+  height: 20px;
+  background: white;
+  position: relative;
+  bottom: 150px;
+  left: 1400px;
+  cursor: pointer;
+}
+
+
+ul,li {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 45px;
+}
+
+ul, li {
+  list-style:none;
+}
+
+.a{
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  position: relative;
+  top: -30px;
+}
+.menu-item {
+  background-color: green;
+  flex-grow: 1;
+  transition: 0.5s;
+  border: 1px solid rgb(199, 230, 193);
+}
+.menu-item:hover {
+  background-color: black;
+  flex-grow: 1.2;
+}
+.menu-link {
+  /* block이면 마우스 클릭영역이 더 커짐, a태그는 inline으로서 클릭영역이 콘텐츠에 한정됨*/
+  display: block; 
+  padding: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu-link:hover {
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+section.notice {
+  padding: 80px 0;
+}
+
+#board-search .search-window {
+  padding: 15px 0;
+  background-color: #f9f7f9;
+}
+#board-search .search-window .search-wrap {
+  position: relative;
+/*   padding-right: 124px; */
+  margin: 0 auto;
+  width: 80%;
+  max-width: 564px;
+}
+#board-search .search-window .search-wrap input {
+  height: 40px;
+  width: 100%;
+  font-size: 14px;
+  padding: 7px 14px;
+  border: 1px solid #ccc;
+}
+#board-search .search-window .search-wrap input:focus {
+  border-color: #333;
+  outline: 0;
+  border-width: 1px;
+}
+#board-search .search-window .search-wrap .btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 108px;
+  padding: 0;
+  font-size: 16px;
+}
+
+.board-table {
+  font-size: 13px;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.board-table a:hover {
+  text-decoration: underline;
+}
+
+.board-table th, .board-table td {
+  padding: 14px 0;
+}
+
+.board-table tbody th {
+  padding-left: 28px;
+  padding-right: 14px;
+  border-top: 1px solid #e7e7e7;
+  text-align: left;
+}
+
+.board-table tbody th p{
+  display: none;
+}
+.page-title {
+  margin-bottom: 60px;
+}
+.page-title h3 {
+  font-size: 28px;
+  color: #333333;
+  font-weight: 400;
+  text-align: center;
+}
+
+.page{
+  text-align: center; /* div 사이즈 영역 안에서의 center */
+  width: 50%;
+}
+
+.pagination{
+  position: relative;
+  left: 50%;
+  top: -100px;
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  margin-top: 0px;
+}
+
+.pagination li{
+  display: inline;
+  text-align: center;
+}
+
+/** 숫자들에 대한 스타일 지정 **/
+.pagination a{
+  float: left;
+  display: block;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  line-height: 1.5;
+}
+
+.first{
+  margin-right: 15px;
+}
+
+.last{
+  margin-left: 15px;
+}
+
+.first:hover, .last:hover, .left:hover, .right:hover{
+  color: green;
+}
+
+.pagination a.active{
+  cursor: default;
+  color: black;
+}
+
+.pagination a:active{
+  outline: none;
+}
+
+.model .num{
+  margin-left: 3px;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.model .num:hover{
+  background-color: green;
+  color: green;
+}
+
+.modal .num.active, .modal .num:active{
+  background-color: #ddffbc;
+  cursor: pointer;
+}
+
+.arrow_left{
+  padding: 0;
+  height: 30px;
+  line-height: 30px;
+}

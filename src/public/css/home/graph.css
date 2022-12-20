@@ -298,3 +298,134 @@ section.notice {
   font-weight: 400;
   text-align: center;
 }
+/* statistics start */
+.graph{
+  background-color:#ccc;
+  height: 100vh;
+  border-radius: 40px;
+  margin:50px;
+}
+@keyframes stack{
+  0%{ height: 0; opacity:0;}
+  100%{ height: 12.15%; opacity:1;}
+}
+@keyframes stack2{
+  0%{ height: 0; opacity:0;}
+  100%{ height: 4.8%; opacity:1;}
+}
+@keyframes stack3{
+  0%{ height: 0; opacity:0;}
+  100%{ height: 10%; opacity:1;}
+}
+@keyframes stack4{
+  0%{ height: 0; opacity:0;}
+  100%{ height: 33.75%; opacity:1;}
+}
+section{
+  display:flex;  
+/*   flex-direction:column;   */
+  justify-content:center;
+  height: 500px;
+  transform:rotate(180deg);
+}
+
+.graph {
+  height:400px;
+}
+
+.graph span{
+  display:flex;
+  height:40px;
+  line-height:40px;
+  text-align:right;
+  /*   width: 75%; */
+  /*   background-color:pink; */
+  border-radius: 40px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  color:white;
+  transform:rotate(180deg);
+  
+}
+.graph.stack1 span{
+  background-color:violet;
+  height:12.15%;
+  animation:stack 2s 1;
+  
+}
+.graph.stack2 span{
+  background-color:violet;
+  height:4.8%;
+  animation:stack2 2s 1;
+}
+.graph.stack3 span{
+  background-color:violet;
+  height:10%;
+  animation:stack3 2s 1;
+}
+.graph.stack4 span{
+  background-color:violet;
+  height:33.75%;
+  animation:stack4 2s 1;
+}
+/* statistics end */
+
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+  position: relative;
+  top: 153px;
+  left: 1000px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.font_cal{
+  position: absolute;
+  bottom: -250px;
+  right: 550px;
+}
+.font_tan{
+  position: absolute;
+  bottom: -250px;
+  right: 665px;
+}
+.font_dan{
+  position: absolute;
+  bottom: -250px;
+  right: 795px;
+}
+.font_ji{
+  position: absolute;
+  bottom: -250px;
+  right: 925px;
+}
+.font_cal1{
+  position: absolute;
+  bottom: -300px;
+  right: 550px;
+}
+.font_tan1{
+  position: absolute;
+  bottom: -300px;
+  right: 680px;
+}
+.font_dan1{
+  position: absolute;
+  bottom: -300px;
+  right: 802px;
+}
+.font_ji1{
+  position: absolute;
+  bottom: -300px;
+  right: 913px;
+}

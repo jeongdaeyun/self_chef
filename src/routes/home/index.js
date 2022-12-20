@@ -15,5 +15,10 @@ router.get("/write", ctrl.output.write);
 router.get("/mypage_setting", ctrl.output.mypage_setting);
 router.get("/soycrab", ctrl.output.soycrab);
 router.get("/kimchijjigae", ctrl.output.kimchijjigae);
+router.get("/speedpage", ctrl.output.speedpage);
+router.get("/eggcustard", ctrl.output.eggcustard);
+router.get("/K_stew", ctrl.output.K_stew);
+router.get("/mealplanner", ctrl.output.mealplanner);
+router.get("/graph", ctrl.output.graph);
 //외부로 내보내기
 module.exports = router;

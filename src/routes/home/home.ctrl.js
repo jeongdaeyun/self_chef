@@ -40,7 +40,28 @@ const output = {
 
   kimchijjigae: (req, res) => {
     res.render("home/kimchijjigae");
+  },
+
+  speedpage: (req, res) => {
+    res.render("home/speedpage");
+  },
+
+  eggcustard: (req, res) => {
+    res.render("home/eggcustard");
+  },
+
+  K_stew: (req, res) => {
+    res.render("home/K_stew");
+  },
+  
+  mealplanner: (req, res) => {
+    res.render("home/mealplanner");
+  },
+
+  graph: (req, res) => {
+    res.render("home/graph");
   }
+
   
 };
 
